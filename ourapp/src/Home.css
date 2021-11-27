@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich%27');
+
+
+* {
+    overscroll-behavior: none;
+    font-family: "Aldrich" !important;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+    
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    width: 2px;
+    
+    background-color: #068913;
+}
+  
+.hero-container {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background: black;
+    height: 50vh;
+    width: 100%;
+    padding-bottom: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    align-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .main-section > h1 {
+    color: #fff;
+    font-size: 75px;
+    margin-top: -100px;
+    flex-direction: row;
+    text-align: center;
+    font-family: "Aldrich";
+  }
+  .main-section > h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: -20px;
+    text-align: center;
+    /* margin-left: 200px; */
+    font-family: "Aldrich";
+
+  }
+  
+  .main-section > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Aldrich";
+    padding-bottom: 35px;
+    /* margin-left: 200px; */
+
+  }
+.happened {
+    padding-top: 30px;
+    display: flex;
+    background: #068913;
+    color: white;
+}
+
+.happened-writing > p {
+    font-family: "Aldrich";
+}
+
+.happened-writing > h1 {
+    font-family: "Aldrich";
+}
+
+.happened-picture {
+    align-content: flex-end;
+    width: 70vw;
+    height: 45vh;
+    margin: 100px 40px 40px 60px;
+
+}
+
+.happened-writing {
+    margin-top: 20px;
+    align-content: flex-start;
+    margin: 40px 10px 40px 230px;
+
+}
+
+.situation {
+    display: flex;
+    background-color: black;
+    height: 60vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+.situation-writing > p {
+    font-family: "Aldrich";
+}
+
+.situation-writing > h1 {
+    font-family: "Aldrich";
+    color: white
+}
+
+.situation-picture {
+    align-content: flex-end;
+    width: 70vw;
+    height: 45vh;
+    margin: 40px 10px 40px 230px;
+
+}
+
+.situation-writing {
+    margin-top: 20px;
+    align-content: flex-start;
+    margin: 100px 40px 40px 60px;
+
+}
+
+.situation-writing > p {
+    font-family: "Aldrich";
+    color: white;
+}
+
+.safety {
+    display: flex;
+    background: #068913;
+    height: 80vh;
+    color: white;
+}
+
+.safety-writing > h1 {
+    font-family: "Aldrich";
+}
+
+.safety-picture {
+    align-content: flex-end;
+    width: 70vw;
+    height: 45vh;
+    margin: 100px 40px 40px 60px;
+
+}
+
+.safety-writing {
+    margin-top: 20px;
+    align-content: flex-start;
+    margin: 170px 10px 40px 230px;
+
+}
+
+.button {
+    display: flex;
+    background-color:rgb(7, 0, 16);
+    color: white;
+    min-width: 300px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Aldrich';
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 2;
+    border: none
+
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}
+.button:hover {
+    color: white;
+
+}
+.button span:after {
+    content: '\2771';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
+}
+.button:hover span {
+    padding-right: 10px;
+
+}
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+.spacer {
+    aspect-ratio: 2000/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    display: flex;
+}
+
+    .layer1 {
+        background-image: url('peak2.svg');
+
+    }
+
+    .layer2 {
+        background-image: url('peak1.svg');
+        /* margin: 320px 0px 0px 0; */
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .layer3 {
+        background-image: url('peak1.svg');
+        /* margin: 320px 0px 0px 0; */
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .layer4 {
+        background-image: url('peak2.svg');
+        /* margin: 320px 0px 0px 0; */
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .layer5 {
+        background-image: url('peak2.svg');
+        /* margin: 320px 0px 0px 0; */
+        height: 60vh;
+        margin-top: 0px;
+    }
+.footer {
+    display: flex;
+    background: black;
+    height: 60vh;
+    color: white;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    padding-bottom: 200px;
+}
+section {
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 0px 20vw;
+    z-index: -1;
+}
+
+img {
+    height: 45vh !important;
+    width: 35vw !important;
+}
