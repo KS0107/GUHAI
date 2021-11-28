@@ -16,7 +16,7 @@ const Questions = () => {
                 href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
             />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='True'/>
             <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet"></link>
             <section className="map">
                 <div className="container">
@@ -54,7 +54,7 @@ const Questions = () => {
                                 <input className="form-control" type="file" id="formFile"></input>
 
                             </div>
-                            <button class="btn btn-primary" type="submit">Confirm Identity</button>
+                            <button className="btn btn-primary" type="submit">Confirm Identity</button>
                         </div>
 
                     </div>
