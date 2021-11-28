@@ -10,6 +10,7 @@
     genLon: -77.000
   };
 
+
   function waitGetCurrentPosition() {
     if ((typeof hookedObj.fakeGeo !== 'undefined')) {
       if (hookedObj.fakeGeo === true) {
