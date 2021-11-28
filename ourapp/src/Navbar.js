@@ -4,30 +4,29 @@ import logo from './logo.png';
 
 console.log(logo);
 
-
 const Navbar = () => {
   return (
     <div>
-      <nav class='navbar'>
-        <ul class='nav-list'>
-          <li class='nav-item'>
+      <nav className='navbar'>
+        <ul className='nav-list'>
+          <li className='nav-item'>
             <img src={logo} />
           </li>
 
-          <li class='nav-item'>
-          <a href="/">Home</a>
+          <li className='nav-item'>
+            <a href='/'>Home</a>
           </li>
-          <li class='nav-item'>
-          <a href="/">Example</a>
+          <li className='nav-item'>
+            <a href='/'>Example</a>
           </li>
-          <li class='nav-item'>
-          <a href="/">Ex</a>
+          <li className='nav-item'>
+            <a href='/'>Ex</a>
           </li>
-          <li class='nav-item'>
-          <a href="/">Ex</a>
+          <li className='nav-item'>
+            <a href='/'>Ex</a>
           </li>
-          <li class='nav-item'>
-          <a href="/">Ex</a>
+          <li className='nav-item'>
+            <a href='/'>Ex</a>
           </li>
         </ul>
       </nav>

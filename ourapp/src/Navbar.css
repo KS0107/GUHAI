@@ -4,9 +4,7 @@
 
 * {
   box-sizing: border-box;
-  background-color: black;
 }
-
 
 .titler {
   transition: 0.25s;
@@ -17,7 +15,6 @@
   margin: 80p;
   clear: both;
 }
-
 
 .flex-container {
   display: flex;
@@ -45,21 +42,21 @@
   text-align: center;
 }
 a:link {
-    font-size: 14px;
-    background-color: #003d17;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    padding: 10px 10px;
-    display: block;
-    width: 110px;
-    margin-top: 10px;
-    text-align: center;
-    text-decoration: none;
-    border: 2px black;
-    border-radius: 10px;
-    transition: 0.2s ease-in-out;
-    -webkit-transition: 0.2s ease-in-out;
-  }
+  font-size: 14px;
+  background-color: #003d17;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  padding: 10px 10px;
+  display: block;
+  width: 110px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px black;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
 a:hover {
   color: rgb(0, 0, 0);
   background-color: #36a300;
@@ -67,20 +64,20 @@ a:hover {
   border-radius: 15px;
 }
 a:visited {
-    font-size: 14px;
-    color:white;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    padding: 10px 10px;
-    display: block;
-    width: 110px;
-    margin-top: 10px;
-    text-align: center;
-    text-decoration: none;
-    border: 2px black;
-    border-radius: 10px;
-    transition: 0.2s ease-in-out;
-    -webkit-transition: 0.2s ease-in-out;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  padding: 10px 10px;
+  display: block;
+  width: 110px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px black;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
 }
 .navbar {
   width: 100vw;
