@@ -26,7 +26,7 @@ function Home() {
             <p>Survivors across the globe have made safe-zones in which they are protected by the radiation. </p>
             <p>They now live a life stuck in their zone, desperately trying to find ways to tackle the radiation.</p>
          </div>
-         <img src="./images/worldmap.jpg" alt="" className="happened-picture" />
+         <img src="./images/img1.jpg" alt="" className="happened-picture" />
      </div>
        
      <div className="spacer layer1">
@@ -34,7 +34,7 @@ function Home() {
      </div>
      
        <div className="situation">
-       <img src="./images/worldmap.jpg" alt="" className="situation-picture" />
+       <img src="./images/img2.jpg" alt="" className="situation-picture" />
 
        <div className="situation-writing">
             <h1>What Now</h1>
@@ -55,7 +55,7 @@ function Home() {
            <h1>Safety</h1>
            <p>Look at our safety page to learn more about how to survive and adapt to the new world</p>
          </div>
-         <img src="./images/worldmap.jpg" alt="" className="safety-picture" />
+         <img src="./images/img3.jpg" alt="" className="safety-picture" />
 
      </div>
      <div className="footer">
