@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich%27%27');
+
 .App {
   text-align: center;
+  background-color: #0c3019;
+  font-family: "Aldrich";
 }
 
 .App-logo {
